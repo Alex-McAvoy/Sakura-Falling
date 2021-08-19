@@ -44,7 +44,7 @@ $(function() {
 					// console.log(time);
 					image_size = randomNum(par.image_min, par.image_max);
 					// console.log(image_size);
-					$('#sakura-img:last-child').after('<img id="sakura-img" src="./img/sakura.png">');
+					$('#sakura-img:last-child').after('<img id="sakura-img" src="./images/sakura.png">');
 					$('#sakura-img:last-child').css({
 						'margin-left': margin_left + '%',
 						'width': image_size + 'px',
